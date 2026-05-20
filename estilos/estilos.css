@@ -1,5 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+    max-width: 840px;
+
+   
+}
+main img {
+  width: 150px;
+  height: auto;
+}
+main img {
+  /* você provavelmente terá outras declarações CSS aqui */
+  float: right;
+}
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+}
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2); 
+  padding: 1rem;
+  background-color: #eee; /*  comentário no código Semana 03 */
+  color: #333;
+  text-align: center;} 
+
+aside img {
+  width: 200px;
+  height: auto;
+}
 nav{
     background-color: darkblue;
+    padding: 10px;
 }
 nav a { 
     color: white;
@@ -17,6 +55,25 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
+
 p {
     padding:  10px;
+}
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+/* Seletores de Classe */
+.caixa {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+aside {
+  width: 20em;
+  text-align: center;
 }

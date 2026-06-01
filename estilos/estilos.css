@@ -12,11 +12,7 @@ main {
 main img {
   float: right;
   width: 150px;
-  height: auto;
-  border:#000;
- 
-  box-shadow: 0 0 30px gray;  
-
+  
   
 }
 body {

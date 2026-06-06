@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 HTML - Enquete Usuário</title>
-    <link rel="stylesheet" href="formulario-pesquisa.css">
+    <link rel="stylesheet" href="estilos/formulario_pesquisa.css">
     <title>Formulário de pesquisa</title>
 
 <body>
@@ -16,30 +16,42 @@
     </header>
     <main>
         <form action="">
-            <label for="nomecompleto">Nome Completo:</label>
-            <input type="text" id="nome-completo" name="nome-completo" reqyuired>
-            <label for="emaildousuario">E-mail:</label>
-            <input type="text" id="email-do-usuaio" name="email-do-usuario" required>
-            <label for="navegador">Qual é o seu navegador de internet favorito?</label>
-            <select id="navegador" name="navegador">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Brave</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="pet">Você tem um bichinho de estimação?</label>
-            <select name="pet" id="pet">
-                <option value="Sim">SIM</option>
-                <option value="não">Não</option>
-            </select>
+
+            <div class="item-formulario coluna2">
+                <label for="nomecompleto">Nome Completo:</label>
+                <input type="text" id="nome-completo" name="nome-completo" reqyuired>
+            </div>
 
 
+            <div class="item-formulario coluna2">
+                <label for="emaildousuario">E-mail:</label>
+                <input type="text" id="email-do-usuaio" name="email-do-usuario" required>
+            </div>
 
-            <label for="feedback">Liste os lugares onde você morou:</label>
-            <textarea id="feedback" name="feedback" rows="4"
-                placeholder="Pariquera-Açu Brasil,  Cananéia Brasil, Telemaco Borba Brasil"></textarea>
-            </select>
+            <div class="item-formulario coluna1">
+                <label for="navegador">Qual é o seu navegador de internet favorito?</label>
+                <select id="navegador" name="navegador">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="item-formulario coluna1">
+                <label for="pet">Você tem um bichinho de estimação?</label>
+                <select name="pet" id="pet">
+                    <option value="Sim">SIM</option>
+                    <option value="não">Não</option>
+                </select>
+            </div>
+
+            <div class="item-formulario">
+                <label for="feedback">Liste os lugares onde você morou:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="Pariquera-Açu Brasil,  Cananéia Brasil, Telemaco Borba Brasil"></textarea>
+                </select>
+            </div>
 
             <button type="submit">ENVIAR</button>
         </form>

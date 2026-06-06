@@ -21,7 +21,12 @@ h1{
   font-size: 1.5em;
   color: navy;
   text-align: center;
-}
+  }
+  h2 {
+    text-align: center;
+     color: navy;
+  }
+
 form {
   width: 650px;
   margin: 0 auto;

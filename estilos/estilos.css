@@ -15,7 +15,7 @@ main img {
   height: AUTO;
   border: 0;
   padding: 0;
-   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
  
   
   
@@ -34,6 +34,7 @@ aside h2 {
   left: 150px;
 }
 aside {
+  position:relative
   width: 20rem;
   margin: 1rem;
   border: 1px solid rgb(0 0 0 / 0.2); 

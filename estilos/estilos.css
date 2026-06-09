@@ -15,6 +15,7 @@ main img {
   height: AUTO;
   border: 0;
   padding: 0;
+   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
  
   
   

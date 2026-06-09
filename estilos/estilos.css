@@ -12,7 +12,7 @@ main {
 main img {
   float: right;
   width: 150px;
-  height: 0;
+  height: AUTO;
   border: 0;
   padding: 0;
  

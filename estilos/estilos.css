@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 main {
-    max-width: 840px;
+  max-width: 840px;
 
    
 }
@@ -46,30 +46,30 @@ aside img {
   height: auto;
 }
 nav{
-    background-color: darkblue;
-    padding: 10px;
+  background-color: darkblue;
+  padding: 10px;
 }
 nav a { 
-    color: white;
-    display: block;
-    padding: 10px;
+  color: white;
+  display: block;
+  padding: 10px;
 }
 h1 {
-    color:  darkblue;
-    padding: 2em;
+  color:  darkblue;
+  padding: 2em;
 
 }
 img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+   box-shadow: 0 0 30px gray;
 }
 
 
 p {
-    padding:  0;
+  padding:  0;
 }
 footer {
   margin-top: 15px;
@@ -78,10 +78,7 @@ footer {
 }
 
 
-aside{
-  width: 20em;
-  text-align: center;
-}
+
 /* Seletores de Classe */
 .caixa {
   margin: 1rem;
@@ -89,6 +86,6 @@ aside{
   padding: 1rem;
   background-color: #ddd;
   color: #000;  }
-  .indentaçao {
-    padding-left: 2rem;
+.indentaçao {
+  padding-left: 2rem;
   }

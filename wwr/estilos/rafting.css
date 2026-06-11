@@ -3,6 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --cor-primaria: #10a910; /* verde-floresta */
+  --cor-secundaria: #f4a261; /* bege médio */
+  --cor-destaque1: #08212b; /* azul-escuro acinzentado */
+  --cor-destaque2: #e9c46a; /* amarelo-claro dourado */
+  --fonte-titulo: "Times New Roman", "Georgia", serif;
+  --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-destaque2);
+  }
+
 
 body {
   font-family: var(--fonte-body);
@@ -16,7 +30,7 @@ header, main, footer {
 
 h1, h2 {
   font-family: var(--fonte-titulo);
-  color: var(--cor-primaria);
+  color: var(--cor-destaque1);
   text-align: center;
 
 }

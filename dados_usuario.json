@@ -1,0 +1,14 @@
+{
+    "nome": "ze",
+    "sobrenome": "das couve",
+    "telefone": "1998887654",
+    "cpf": "0033200078",
+    "renda_mensal": "1000.00",
+    "data_nascimento": "22011988",
+    "historico_consumo": [
+        {
+            "item": "cueca",
+            "valor": 100.0
+        }
+    ]
+}

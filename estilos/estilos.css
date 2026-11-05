@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -14,38 +20,66 @@ h1 {
 }
 
 main img {
+    margin-left: 20px;
+
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 main {
     max-width: 840px;
+
+    p {
+        padding: 10px;
+        margin-left: 10px;
+    }
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+
+    p {
+        padding: 0px;
+        margin: 10px;
+
+    }
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
-p {
-    padding: 0;
+aside h2 {
+    position: absolute;
+    top: 535px;
+    left: 95px;
+
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* seletor de classe*/
+/*Um seletor de classe é um tipo de seletor CSS que seleciona elementos que possuem um atributo de classe específico.*/
+
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+h1 {
+    padding: 10px;
 }

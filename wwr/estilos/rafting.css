@@ -50,6 +50,7 @@ article {
     padding: 8px;
 }
 
+footer a,
 .redes-sociais a {
     text-decoration: none;
 }
@@ -64,7 +65,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -76,7 +77,14 @@ h1 {
     /* texto branco – certifique-se de que haja contraste suficiente com a cor de fundo */
 }
 
-.article img {
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.hero article img {
     float: right;
     width: 125px;
     height: auto;

@@ -110,7 +110,7 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: top;
-
+    position: relative;
     padding: 20px;
     background-color: #2e91a5;
 
@@ -127,11 +127,12 @@ footer a {
 }
 
 .hero h1 {
+    position: relative;
     grid-column: 1;
     grid-row: 1;
     width: 100%;
     padding: 12px;
-    text-align: center;
+    text-align: right;
     color: var(--cor-secundaria);
     background-color: transparent;
     opacity: 1;
@@ -142,6 +143,7 @@ footer a {
     grid-row: 2;
     margin: 0;
     padding: 8px;
+    position: relative;
 
 }
 

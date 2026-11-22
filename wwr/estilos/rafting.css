@@ -12,7 +12,9 @@
     /* bege médio */
     --cor-destaque1: #264653;
     /* azul-escuro acinzentado */
-    --cor-destaque2: #a37b16;
+    --cor-destaque2: #e9e20a;
+    --cor-destaque3: #68a9ea;
+    --cor-fundo: #edf1f4;
     /* amarelo-claro dourado */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -28,7 +30,6 @@ header,
 main,
 footer {
 
-    width: 840px;
     width: 100%;
     margin: 0 auto;
 }
@@ -77,12 +78,12 @@ nav ul {
 
 nav a {
     display: flex;
-    background-color: #e9e20a;
+    background-color: var(--cor-destaque2);
     justify-content: space-evenly;
-    color: #222;
+    color: var(--cor-texto);
     text-decoration: none;
     padding: 8px 22px;
-    border: 1px solid #666;
+    border: 1px solid var(--cor-fundo);
     border-right: none;
     font-size: 14px;
 }
@@ -101,9 +102,9 @@ nav a {
 }
 
 .hero h1 {
-    background-color: rgba(255, 255, 255, 0.72);
+    background-color: var(--cor-fundo);
     position: absolute;
-    color: #222;
+    color: var(--cor-texto);
     top: 5px;
     text-align: center;
     font-size: 4rem;
@@ -118,7 +119,7 @@ nav a {
     max-width: 25%;
     right: 30px;
     padding: 16px;
-    background-color: rgba(255, 255, 255, 0.72);
+    background-color: var(--cor-fundo);
     border-radius: 4px;
 }
 
@@ -137,7 +138,7 @@ nav a {
 
 /* history */
 .history {
-    background-color: #68a9ea;
+    background-color: var(--cor-destaque3);
     padding: 24px;
     margin-bottom: 16px;
     display: grid;
@@ -201,7 +202,7 @@ footer {
     align-items: center;
     padding: 16px;
     gap: 12px;
-    background-color: #0ea149;
+    background-color: var(--cor-primaria);
     font-family: var(--fonte-body);
     font-size: 40px;
 }

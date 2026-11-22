@@ -150,6 +150,7 @@ nav a {
 .history h2 {
     grid-column: 1 / -1;
     margin-bottom: 8px;
+    font-size: 3rem;
 }
 
 .history img {
@@ -173,6 +174,7 @@ nav a {
 
 .adventure h2 {
     color: var(--cor-texto);
+    font-size: 3rem;
 }
 
 .adventure-gallery {
@@ -193,6 +195,11 @@ nav a {
     border-radius: 6px;
     display: block;
     margin-bottom: 6px;
+}
+
+figcaption {
+    font-size: 1rem;
+
 }
 
 /* FOOTER */

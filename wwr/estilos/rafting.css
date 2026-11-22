@@ -10,7 +10,7 @@
     /* verde-floresta */
     --cor-secundaria: #f4a261;
     /* bege médio */
-    --cor-destaque1: #264653;
+    --cor-destaque1: #1e6582;
     /* azul-escuro acinzentado */
     --cor-destaque2: #e9e20a;
     --cor-destaque3: #68a9ea;
@@ -209,7 +209,7 @@ footer {
     align-items: center;
     padding: 16px;
     gap: 12px;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-destaque1);
     font-family: var(--fonte-body);
     font-size: 40px;
 }

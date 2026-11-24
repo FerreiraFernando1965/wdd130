@@ -41,13 +41,12 @@ h2 {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
+    justify-content: space-between;
     background-color: var(--cor-primaria);
     padding: 8px 16px;
-
-    ;
 
 }
 
@@ -60,6 +59,10 @@ header img {
     display: block
 }
 
+header nav {
+    justify-self: end;
+}
+
 p,
 section,
 article {
@@ -70,22 +73,21 @@ article {
 
 nav ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     list-style: none;
+    gap: 40px;
 
 }
 
 nav a {
-    display: flex;
     background-color: var(--cor-destaque2);
-    justify-content: space-evenly;
     color: var(--cor-texto);
     text-decoration: none;
     padding: 8px 22px;
     border: 1px solid var(--cor-fundo);
-    border-right: none;
     font-size: 14px;
+    border-radius: 10px;
+
 }
 
 /* HERO */

@@ -10,7 +10,7 @@
     /* verde-floresta */
     --cor-secundaria: #f4a261;
     /* bege médio */
-    --cor-destaque1: #1e6582;
+    --cor-destaque1: #4eb349;
     /* azul-escuro acinzentado */
     --cor-destaque2: #e9e20a;
     --cor-destaque3: #68a9ea;
@@ -213,7 +213,7 @@ footer {
     gap: 12px;
     background-color: var(--cor-destaque1);
     font-family: var(--fonte-body);
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .redes-sociais {
@@ -232,8 +232,7 @@ footer {
 footer p {
     order: 1;
     margin: 0;
-    font-family: var(--fonte-body);
-    font-size: 20px;
+
 }
 
 footer a {

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário-Pesquisa Semana 05</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
 </head>
 
 <body>
@@ -12,40 +13,48 @@
         <h1>WDD 130 | Formulário HTML - Enquete do Usuário</h1>
     </header>
     <main>
-        <form>
-            <label>Nome Completo *: <input type="text" name="nome-completo" required></label>
-            <label>Número de Telefone *: <input type="tel" name="telefone"
-                  placeholder="(19)99999-9999" required></label>
-            <label for="quantidade">Selecione a Quantidade</label>
-            <select name="quantidade" id="quantidade">
-                <option value="1">Um</option>
-                <option value="2">Dois</option>
-                <option value="3">Três</option>
-            </select>
-
-            <label for="navegador">Qual é o seu navegador de internet favorito?</label>
-            <select id="navegador" name="navegador">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Brave</option>
-                <option value="other">Other</option>
-            </select>
-            <label>Você tem um bichinho de estimação? <input type="checkbox" name="pet"></label>
-
-            <label for="feedback">Liste os lugares onde você morou:</label>
-            <textarea id="feedback" name="feedback" rows="4"
-              placeholder="Pariquera-Açu, Cananeia, Pedro II, Divinópolis"></textarea>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Informações de Contato</legend>
+                <div class="nome">
+                    <label for="nome-completo">Nome Completo:</label>
+                    <input type="text" id="nome-completo" name="nome-completo" required>
+                </div>
+                <div class="email">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Perguntas</legend>
+                <div>
+                    <label for="navegador">Qual é o seu navegador de internet favorito?</label>
+                    <select id="navegador" name="navegador">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="edge">Edge</option>
+                        <option value="opera">Ópera</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
+                <div class="pet">
+                    <label for="pet">Você tem um bichinho de estimação?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="lugar">
+                    <label for="feedback">Liste os lugares onde você morou:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                      placeholder="Pariquera-Açu, Cananeia, Pedro II, Divinópolis"></textarea>
+                </div>
+            </fieldset>
             <button type="submit">Enviar Pesquisa</button>
-        </form>
 
+        </form>
     </main>
     <footer>
         <p>&copy; 2026 🚀 Fernando Luis Ferreira - WDD 130 | Formulário HTML - Enquete do Usuário 🚀
         </p>
     </footer>
-
-
 </body>
 
 </html>
